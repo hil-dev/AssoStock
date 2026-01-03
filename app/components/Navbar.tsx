@@ -1,5 +1,5 @@
 import { UserButton, useUser } from '@clerk/nextjs'
-import { Icon, ListTree, Menu, PackagePlus, ShoppingBasket, Warehouse, X  , HandHeart , Receipt , LayoutDashboard} from 'lucide-react'
+import {ListTree, Menu, PackagePlus, ShoppingBasket, Warehouse, X  , HandHeart , Receipt , LayoutDashboard} from 'lucide-react'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import React, { useEffect, useState } from 'react'

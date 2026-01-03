@@ -1,7 +1,7 @@
 import { ChartData } from '@/type'
 import React, { useEffect, useState } from 'react'
 import { getProductCategoryDistribution } from '../actions'
-import { ResponsiveContainer, CartesianGrid, XAxis, YAxis, Tooltip, Legend, Bar, Rectangle, BarChart, LabelList, Cell } from 'recharts'
+import { ResponsiveContainer,  XAxis, YAxis, Bar,BarChart, LabelList, Cell } from 'recharts'
 import EmptyState from './EmptyState'
 
 const CategoryChart = ({ email }: { email: string }) => {
