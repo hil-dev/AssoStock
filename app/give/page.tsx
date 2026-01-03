@@ -11,7 +11,7 @@ import ProductImage from '../components/ProductImage'
 import { Trash } from 'lucide-react'
 import { toast } from 'react-toastify'
 
-const GivePage = () => {
+const Page = () => {
 
     const { user } = useUser()
     const email = user?.primaryEmailAddress?.emailAddress as string
@@ -223,4 +223,4 @@ const GivePage = () => {
     )
 }
 
-export default GivePage
+export default Page

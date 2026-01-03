@@ -10,7 +10,7 @@ import { RotateCcw } from 'lucide-react'
 
 const ITEMS_PER_PAGE = 5
 
-const TransactionsPage = () => {
+const Page = () => {
 
     const { user } = useUser()
     const email = user?.primaryEmailAddress?.emailAddress as string
@@ -170,4 +170,4 @@ const TransactionsPage = () => {
     )
 }
 
-export default TransactionsPage
+export default Page

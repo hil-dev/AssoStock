@@ -11,7 +11,7 @@ import ProductImage from '../components/ProductImage'
 import { toast } from 'react-toastify'
 import { useRouter } from 'next/navigation'
 
-const NewProductPage = () => {
+const Page = () => {
   const { user } = useUser()
   const email = user?.primaryEmailAddress?.emailAddress
   const router = useRouter()
@@ -195,4 +195,4 @@ const NewProductPage = () => {
   )
 }
 
-export default NewProductPage
+export default Page
