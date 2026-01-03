@@ -10,9 +10,9 @@
   },
   "dependencies": {
     "@clerk/nextjs": "^6.15.1",
-    "@prisma/client": "^6.6.0",
+    "@prisma/client": "^6.19.1",
     "lucide-react": "^0.488.0",
-    "next": "15.3.0",
+    "next": "^15.5.9",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-toastify": "^11.0.5",
@@ -24,10 +24,10 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "daisyui": "^5.0.23",
+    "daisyui": "^5.5.14",
     "eslint": "^9",
     "eslint-config-next": "15.3.0",
-    "prisma": "^6.6.0",
+    "prisma": "^6.19.1",
     "tailwindcss": "^4",
     "typescript": "^5"
   }
