@@ -5,8 +5,10 @@ interface Params {
   productId: string
 }
 
-// Le composant page ici peut être async pour correspondre aux types Next.js
-export default async function Page({ params }: { params: Params }) {
-  // On passe simplement l'id au composant client
-  return <UpdateProductClient productId={params.productId} />
+// Composant Server Component
+export default async function Page({ params }: { params: Promise<Params> }) {
+  // Attendre la résolution de la promise
+  const resolvedParams = await params
+  
+  return <UpdateProductClient productId={resolvedParams.productId} />
 }
